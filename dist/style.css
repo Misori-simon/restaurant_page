@@ -35,18 +35,18 @@ a {
 .nav-wrap {
   text-align: center;
   background-color: #FBE939;
-  padding: 10px 0;
+  padding: 10px 0 0;
 }
 
 .nav-items:hover {
-  background-color: #e4d01e;
+  background-color: #fff;
 }
 
 .nav-items a {
   color: #165a42;
   font-weight: bold;
   display: inline-block;
-  padding: 10px;
+  padding: 10px 10px 20px;
   width: 100%;
 }
 
@@ -167,6 +167,11 @@ a {
   background-color: #165a42;
   color:rgb(231, 231, 231);
   border: none;
+}
+
+.active {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
 }
 
 /* for the about page */

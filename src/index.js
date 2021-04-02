@@ -2,6 +2,7 @@ import pageLoad from './page-load';
 import about from './about';
 import menu from './menu';
 import contact from './contact';
+import active from './active';
 
 const dishes = [
   {
@@ -44,6 +45,6 @@ const dishes = [
 const tabs = pageLoad();
 about();
 
-tabs[0].addEventListener('click', () => { about(); });
-tabs[1].addEventListener('click', () => { menu(dishes); });
-tabs[2].addEventListener('click', () => { contact(); });
+tabs[0].addEventListener('click', () => { about(); active(tabs, 0, 'active'); });
+tabs[1].addEventListener('click', () => { menu(dishes); active(tabs, 1, 'active'); });
+tabs[2].addEventListener('click', () => { contact(); active(tabs, 2, 'active'); });
