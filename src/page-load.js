@@ -28,7 +28,7 @@ const pageLoad = () => {
   logoImage.setAttribute('alt', 'fembe eats');
   logoWrap.appendChild(logoImage);
 
-  const tagline = document.createElement('img');
+  const tagline = document.createElement('p');
   tagline.classList.add('tagline');
   tagline.innerHTML = 'Eat fresh, stay healthy';
   logoWrap.appendChild(tagline);
