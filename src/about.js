@@ -1,5 +1,4 @@
 const about = () => {
-
   function paragraphGenerator(parent, arr, className) {
     for (let i = 0; i < arr.length; i += 1) {
       const para = document.createElement('p');
@@ -11,8 +10,20 @@ const about = () => {
   }
   const contentDiv = document.getElementById('content');
 
-  const aboutWrap = document.createElement('div');
-  aboutWrap.classList.add('menu-item-wrap');
+  const aboutWrap = (() => {
+    let wrap = null;
+    if (document.getElementById('page') === null) {
+      wrap = document.createElement('div');
+      wrap.setAttribute('id', 'page');
+      wrap.classList.add('menu-item-wrap');
+    } else {
+      wrap = document.getElementById('page');
+      wrap.innerHTML = '';
+      wrap.setAttribute('class', '');
+      wrap.classList.add('menu-item-wrap');
+    }
+    return wrap;
+  })();
 
   const aboutHeader = document.createElement('h3');
   aboutHeader.classList.add('about-header');

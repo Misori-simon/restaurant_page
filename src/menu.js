@@ -60,7 +60,9 @@ const menu = (items) => {
 
   const contentDiv = document.getElementById('content');
 
-  const menuItemsWrap = document.createElement('div');
+  const menuItemsWrap = document.getElementById('page');
+  menuItemsWrap.innerHTML = '';
+  menuItemsWrap.setAttribute('class', '');
   menuItemsWrap.classList.add('menu-item-wrap');
 
   const menuHeader = document.createElement('h3');

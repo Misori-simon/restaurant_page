@@ -1,7 +1,9 @@
 const contact = () => {
   const contentDiv = document.getElementById('content');
 
-  const contactWrap = document.createElement('div');
+  const contactWrap = document.getElementById('page');
+  contactWrap.innerHTML = '';
+  contactWrap.setAttribute('class', '');
   contactWrap.classList.add('menu-item-wrap');
 
   const contactHeader = document.createElement('h3');
