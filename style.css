@@ -130,6 +130,8 @@ a {
 .contact-header {
   text-align: center;
   padding: 15px 0 10px;
+  font-weight: 300;
+  font-size: 30px;
 }
 
 .contact-form {
@@ -167,6 +169,26 @@ a {
   border: none;
 }
 
+/* for the about page */
+
+.about-header {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.sub-header {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.about-text {
+  padding: 10px 0;
+  line-height: 1.5;
+}
 @media only screen and (min-width: 920px) {
   .nav .nav-items {
     display: inline-block;
