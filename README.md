@@ -31,7 +31,7 @@ The JS has the following structure
 
 ## Live Demo
 
-[Live Demo Link](https://misori-simon.github.io/library/)
+[Live Demo Link](https://misori-simon.github.io/restuarant_page/)
 
 
 ## Getting Started
@@ -50,7 +50,7 @@ The JS has the following structure
 ### With Node.js
 - Open project directory.
 - Run the ```npm install```
-- npm run start: dev to start the start application.
+
 
 
 ## Authors
