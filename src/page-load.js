@@ -1,5 +1,6 @@
 const pageLoad = () => {
   function navlinkGenerator(parent, arr, className) {
+    const tabsArr = [];
     for (let i = 0; i < arr.length; i += 1) {
       const li = document.createElement('li');
       li.classList.add(className);
@@ -10,7 +11,9 @@ const pageLoad = () => {
 
       li.appendChild(a);
       parent.appendChild(li);
+      tabsArr.push(li);
     }
+    return tabsArr;
   }
 
   const contentDiv = document.getElementById('content');
@@ -42,7 +45,7 @@ const pageLoad = () => {
   const ul = document.createElement('ul');
   ul.classList.add('nav');
 
-  navlinkGenerator(ul, ['Home', 'Order', 'About Us', 'Contact US'], 'nav-items');
+  const tabs = navlinkGenerator(ul, ['Home', 'Order', 'Contact US'], 'nav-items');
 
 
   nav.appendChild(ul);
@@ -50,6 +53,7 @@ const pageLoad = () => {
   header.appendChild(nav);
 
   contentDiv.appendChild(header);
+  return tabs;
 };
 
 export default pageLoad;

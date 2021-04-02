@@ -1,10 +1,7 @@
 import pageLoad from './page-load';
+import about from './about';
 import menu from './menu';
 import contact from './contact';
-
-pageLoad();
-
-contact();
 
 const dishes = [
   {
@@ -43,4 +40,10 @@ const dishes = [
     image: './logo.png',
   },
 ];
-menu(dishes);
+
+const tabs = pageLoad();
+about();
+
+tabs[0].addEventListener('click', () => { about(); });
+tabs[1].addEventListener('click', () => { menu(dishes); });
+tabs[2].addEventListener('click', () => { contact(); });
