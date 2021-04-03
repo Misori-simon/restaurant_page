@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #166147;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.tagline {
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: #FBE939;
+  display: block;
+}
+
+.nav-wrap {
+  text-align: center;
+  background-color: #FBE939;
+  padding: 10px 0 0;
+}
+
+.nav-items:hover {
+  background-color: #fff;
+}
+
+.nav-items a {
+  color: #165a42;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 10px 20px;
+  width: 100%;
+}
+
+/* menu page */
+
+.menu-item-wrap {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.menu-header {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  padding: 15px 0 10px;
+}
+
+.menu-items {
+  display: flex;
+  margin: 10px 0;
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+}
+
+.left {
+  width: 60px;
+}
+
+.left .food-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.right {
+  padding-left: 20px;
+}
+
+.food-name {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.food-controls {
+  display: flex;
+  align-items: center;
+}
+
+.regular-price {
+  color: red;
+  text-decoration: line-through;
+  padding: 5px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.sale-price {
+  color: #165a42;
+  padding: 5px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.food-info {
+  font-size: 14px;
+  padding: 5px;
+  color: #252323;
+}
+
+.order-btn {
+  border: none;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #165a42;
+  border-radius: 5px;
+}
+
+/* for contact page */
+
+.contact-header {
+  text-align: center;
+  padding: 15px 0 10px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.contact-form {
+  background-color: rgb(231, 231, 231);
+  padding: 10px;
+}
+
+.form-inputs,
+.text-area {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #165a42;
+  outline: none;
+}
+
+.text-area {
+  min-height: 30ch;
+  max-width: 400px;
+}
+
+.form-btn {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  background-color: #165a42;
+  color:rgb(231, 231, 231);
+  border: none;
+}
+
+.active {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+/* for the about page */
+
+.about-header {
+  text-align: center;
+  padding: 25px 0;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.sub-header {
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  padding: 10px 0;
+}
+
+.about-text {
+  padding: 10px 0;
+  line-height: 1.5;
+}
+@media only screen and (min-width: 920px) {
+  .nav .nav-items {
+    display: inline-block;
+  }
+
+  .nav-items:hover {
+    background-color: unset;
+  }
+}
