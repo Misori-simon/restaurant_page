@@ -50,7 +50,7 @@ The JS has the following structure
 ### With Node.js
 - Open project directory. ``` cd restaurant_page ```
 - Run ```npm install```
-- Run ``` npm start ``` to start the webpack-server
+- Run ``` npm start ``` to start the webpack-dev-server
 
 
 
