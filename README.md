@@ -42,14 +42,15 @@ The JS has the following structure
 ### clone the repo.
 - in your terminal,  run
 ``` git clone https://github.com/Misori-simon/restaurant_page.git ```
-- open the directory
+
 ### Without Node.js
-- Open project directory.
-- Open dist directory.
+- Open project directory. ``` cd restaurant_page ```
+- Open dist directory. ``` cd dist ```
 - Navigate index.html with your browser.
 ### With Node.js
-- Open project directory.
-- Run the ```npm install```
+- Open project directory. ``` cd restaurant_page ```
+- Run ```npm install```
+- Run ``` npm start ``` to start the webpack-server
 
 
 
