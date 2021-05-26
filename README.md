@@ -8,7 +8,7 @@ A website for a restaurant.
 
 ## About the Project
 
-This project is about building a website using ES6 modules and Webpack to import these modules. The entire DOM is populated and manipulated using javascript.
+This project is about building a website using ES6 modules and Webpack to import these modules. The entire DOM is populated and manipulated using JavaScript.
 
 ![screenshot](./images/sc1.png)
 -
@@ -27,7 +27,7 @@ The JS has the following structure
 
 - HTML5
 - CSS3
-- Javascript
+- JavaScript
 
 ## Live Demo
 
