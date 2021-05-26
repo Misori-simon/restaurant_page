@@ -4,7 +4,7 @@
 
 ## Definition
 
-A website for a restaurant.
+A simple website for a restaurant build with JavaScript.
 
 ## About the Project
 
